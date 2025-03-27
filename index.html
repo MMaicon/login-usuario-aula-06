@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Simples - Aula Segurança Web</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="formlogin">
+            <label for="email">Usuário</label>
+            <input name="email" id="email" placeholder="Informe o usuário" type="text" maxlength="60" required/>
+            <label for="senha">Senha</label>
+            <input name="senha" id="senha" placeholder="Informe a senha" type="password" maxlength="60" required/>
+            <button type="submit">Acessar</button>
+        </form>
+        <p id="msgerror"></p>
+    </div>
+</body>
+</html>
